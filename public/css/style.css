@@ -41,7 +41,7 @@ p {
 .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: black;
+    color: crimson; /*title of projects page and contact of contact info... weird*/
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -49,7 +49,7 @@ p {
 }
 
 .section-title span {
-    color: crimson;
+    color: crimson; /*info of contact info... weird*/
 }
 
 .cta {
@@ -57,7 +57,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid crimson; /*box around projects on home*/
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -68,17 +68,17 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: crimson;
+    background-color: crimson; /*project box on homepage fill color when hovering*/
 }
 
 .brand h1 {
     font-size: 3rem;
     text-transform: uppercase;
-    color: white;
+    color: crimson; /*can't find*/
 }
 
 .brand h1 span {
-    color: crimson;
+    color: crimson; /*Julia and Gabby in header*/
 }
 
 
@@ -95,7 +95,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgba(115, 149, 182, 0.24);
+    background-color: rgba(115, 149, 182, 0.24); /*color of header rectangle*/
     transition: 0.3s ease background-color;
 }
 
@@ -112,7 +112,7 @@ p {
 #header .nav-list ul {
     list-style: none;
     position: absolute;
-    background-color: rgb(115, 149, 182);
+    background-color: rgb(115, 149, 182); /*can't find*/
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -160,7 +160,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-    color: crimson;
+    color: crimson; /*can't find*/
 }
 
 #header .hamburger {
@@ -246,7 +246,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: black; /*background of home page*/
     opacity: 0.7;
     z-index: -1;
 }
@@ -287,7 +287,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: crimson;
+    background-color: crimson; /*can't find*/
     animation: text_reveal_box 1s ease;
     animation-delay: 0.5s;
 }
