@@ -3,11 +3,155 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
     <!--link to the js-->
-    <!--<script src="static/js/app.js"></script>-->
+    <script src="static/js/app.js"></script>
     <!--link to the css -->
-    <!--<link rel="stylesheet" href='style.css' type='text/css' />-->
+    <link rel="stylesheet" href='style.css' type='text/css' />
 
-    <title>Gabby Snyder's Page</title>
+    <title>Homepage of CPS490S23-Team02</title>
 </head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>Julia & Gabby</span></h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Julia Bays and Gabby Snyder, University of Dayton</h1>
+                <p>A demo page for a <i>Bitbucket</i> homepage.</p>
+                <p>To be updated with our team and CPS490 Messenger Demo.</p>
+                <p>Keep updated each sprint during the Spring semester.</p>
+                <p>Video demo will be included.</p>
+                <p>Check below for our latest project and its updates</p>
+                <a href="#projects" type="button" class="cta">Projects</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Society of Women Journalists(SWJ)</h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Sprint 0</h1>
+                        <h2>Beginning set up process for the website </h2>
+                        <p>- A website that shows the identities of women working as journalists at the turn of the 20th century </p>
+                        <p>- Helps to map networks of social and professional support among female journalists </p>
+                        <p>- Aims to recover a detailed history of the early years of the SWJ</p>
+                        <p>- Centralizes SWJ membership lists and makes them more widely accessible</p>
+                    </div>
+                    <div class="project-img">
+                        <!-- you can insert an image corresponding-->
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Sprint 1</h1>
+                        <h2>Focus on the high priorites</h2>
+                        <p>tba</p>
+                    </div>
+                    <div class="project-img">
+                        <!-- you can insert an image corresponding-->
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Sprint 2</h1>
+                        <h2>tba</h2>
+                        <p>tba</p>
+                    </div>
+                    <div class="project-img">
+                        <!-- you can insert an image corresponding-->
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Sprint 3</h1>
+                        <h2>tba</h2>
+                        <p>tba</p>
+                    </div>
+                    <div class="project-img">
+                        <!-- you can insert an image corresponding-->
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Final Project</h1>
+                        <h2>tba</h2>
+                        <p>tba</p>
+                    </div>
+                    <div class="project-img">
+                        <!-- you can insert an image corresponding-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                <div class="contact-info">
+                    <h1>Emails</h1>
+                    <h2>baysj1@udayton.edu</h2>
+                    <h2>snyderg3@udayton,edu</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <p>Copyright © 2020 Arfan. All rights reserved</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
