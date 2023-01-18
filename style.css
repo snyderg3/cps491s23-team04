@@ -95,7 +95,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background-color: rgba(115, 149, 182, 0.24);
     transition: 0.3s ease background-color;
 }
 
@@ -112,7 +112,7 @@ p {
 #header .nav-list ul {
     list-style: none;
     position: absolute;
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(115, 149, 182);
     width: 100vw;
     height: 100vh;
     left: 100%;
