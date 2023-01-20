@@ -41,7 +41,7 @@ p {
 .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: crimson; /*title of projects page and contact of contact info... weird*/
+    color: white; /*title of projects page*/
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -49,7 +49,7 @@ p {
 }
 
 .section-title span {
-    color: crimson; /*info of contact info... weird*/
+    color: rgb(87, 132, 179); /*contact info*/
 }
 
 .cta {
@@ -57,7 +57,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson; /*box around projects on home*/
+    border: 2px solid white; /*box around projects on home*/
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -68,7 +68,7 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: crimson; /*project box on homepage fill color when hovering*/
+    background-color: rgb(21, 75, 113); /*project box on homepage fill color when hovering*/
 }
 
 .brand h1 {
@@ -78,7 +78,7 @@ p {
 }
 
 .brand h1 span {
-    color: crimson; /*Julia and Gabby in header*/
+    color: white; /*Julia and Gabby in header*/
 }
 
 
@@ -95,7 +95,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgba(115, 149, 182, 0.24); /*color of header rectangle*/
+    background-color: rgba(91, 139, 188, 0.533); /*color of header rectangle*/
     transition: 0.3s ease background-color;
 }
 
@@ -160,7 +160,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-    color: crimson; /*can't find*/
+    color: rgb(11, 2, 136); /*nav-bar hover over home, projects, contact*/
 }
 
 #header .hamburger {
@@ -246,7 +246,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black; /*background of home page*/
+    background-color: rgb(87, 132, 179); /*background of home page*/
     opacity: 0.7;
     z-index: -1;
 }
@@ -354,7 +354,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #8d267c 0%, #209b80 100%); /*can't find*/
     opacity: 0.9;
     z-index: -1;
 }
@@ -385,7 +385,7 @@ p {
 
 #projects .projects {
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1200px;/*saw no change when I changed it*/
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -406,7 +406,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 80%; /*saw no change*/
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -414,17 +414,20 @@ p {
 
 #projects .project-info {
     padding: 30px;
-    flex-basis: 50%;
+    flex-basis: 100%; /*width of project boxes, was 60********************/
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    color: white;
+    background-image: linear-gradient(60deg, rgba(229, 229, 229, 0.533) 0%, rgba(226, 226, 226, 0.533) 100%); /*gradient within project boxes, 
+    right is top right corner, left is bottom left corner
+    I like this combo: (60deg, rgb(180, 205, 233) 0%, rgb(176, 204, 234) 100%) light blues*/
+    color: rgb(78, 107, 151);
 }
 
 #projects .project-info h1 {
+    /*text-align: center; /*added, didn't work*/
     font-size: 4rem;
     font-weight: 500;
 }
@@ -436,11 +439,11 @@ p {
 }
 
 #projects .project-info p {
-    color: white;
+    color: rgb(3, 49, 117);
 }
 
 #projects .project-img {
-    flex-basis: 50%;
+    flex-basis: 100%; /*was 80***********/
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -453,7 +456,8 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #b3c7de 0%, #acc3db 100%);
+    /*  91, 139, 188, 0.533  */
     opacity: 0.7;
 }
 
